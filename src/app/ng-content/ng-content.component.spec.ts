@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PropertyBindingComponent } from './property-binding.component';
+import { NgContentComponent } from './ng-content.component';
 
-describe('PropertyBindingComponent', () => {
-  let component: PropertyBindingComponent;
-  let fixture: ComponentFixture<PropertyBindingComponent>;
+describe('NgContentComponent', () => {
+  let component: NgContentComponent;
+  let fixture: ComponentFixture<NgContentComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PropertyBindingComponent ]
+      declarations: [ NgContentComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PropertyBindingComponent);
+    fixture = TestBed.createComponent(NgContentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TwoWayDataBindingComponent } from './two-way-data-binding.component';
+import { NgIfComponent } from './ng-if.component';
 
-describe('TwoWayDataBindingComponent', () => {
-  let component: TwoWayDataBindingComponent;
-  let fixture: ComponentFixture<TwoWayDataBindingComponent>;
+describe('NgIfComponent', () => {
+  let component: NgIfComponent;
+  let fixture: ComponentFixture<NgIfComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TwoWayDataBindingComponent ]
+      declarations: [ NgIfComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TwoWayDataBindingComponent);
+    fixture = TestBed.createComponent(NgIfComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

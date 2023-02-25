@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EventBindingComponent } from './event-binding.component';
+import { NgClassComponent } from './ng-class.component';
 
-describe('EventBindingComponent', () => {
-  let component: EventBindingComponent;
-  let fixture: ComponentFixture<EventBindingComponent>;
+describe('NgClassComponent', () => {
+  let component: NgClassComponent;
+  let fixture: ComponentFixture<NgClassComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EventBindingComponent ]
+      declarations: [ NgClassComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EventBindingComponent);
+    fixture = TestBed.createComponent(NgClassComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
